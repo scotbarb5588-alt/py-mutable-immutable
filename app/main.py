@@ -1,9 +1,9 @@
-a = 123
-b = []
-c = "Hi"
-d = [1, 2]
+immutable_int = 123
+mutable_list_empty = []
+greeting = "Hi"
+mutable_list_numbers = [1, 2]
 
 sorted_variables = {
-    "mutable": [b,d],
-    "immutable": [a,c]
+    "mutable": [mutable_list_empty, mutable_list_numbers],
+    "immutable": [immutable_int, greeting]
 }
