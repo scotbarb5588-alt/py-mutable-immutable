@@ -11,12 +11,22 @@ collection_of_coins = (1, 2, 5, 10, 25, 50, 100)  # tuple (7 items, immutable)
 # mutable values
 mutable_list_empty = []
 mutable_list_numbers = [1, 2]
-my_favourite_films = ["The Matrix", "Inception", "Interstellar", "The Godfather"]  # 4 items
+my_favourite_films = [
+    "The Matrix", 
+    "Inception", 
+    "Interstellar", 
+    "The Godfather"
+]  # 4 items
 marks = [5, 4, 3, 4, 5, 2]  # 6 items
 
 # sorted_variables groups mutable and immutable values
 sorted_variables = {
-    "mutable": [mutable_list_empty, mutable_list_numbers, my_favourite_films, marks],
+    "mutable": [
+        mutable_list_empty, 
+        mutable_list_numbers, 
+        my_favourite_films, 
+        marks
+    ],
     "immutable": [
         immutable_int,
         greeting,
